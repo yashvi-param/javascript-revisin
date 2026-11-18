@@ -92,18 +92,33 @@
 //     console.log("Excellent Attendance");
 // }
 
-let salary = 35000;
+// let salary = 35000;
 
-if(salary >= 0 && salary <= 9999){
-    console.log("No Bonus");
-}else if(salary >= 10000 && salary <= 19999){
-    console.log("5% Bonus");
-}else if(salary >= 20000 && salary <= 29999){
-    console.log("10% Bonus");
-}else if(salary >= 30000 && salary <= 49999){
-    console.log("15% Bonus");
-}else if(salary >= 50000 && salary <= 99999){
-    console.log("20% Bonus");
+// if(salary >= 0 && salary <= 9999){
+//     console.log("No Bonus");
+// }else if(salary >= 10000 && salary <= 19999){
+//     console.log("5% Bonus");
+// }else if(salary >= 20000 && salary <= 29999){
+//     console.log("10% Bonus");
+// }else if(salary >= 30000 && salary <= 49999){
+//     console.log("15% Bonus");
+// }else if(salary >= 50000 && salary <= 99999){
+//     console.log("20% Bonus");
+// }else{
+//     console.log("25% Bonus");
+// }
+
+
+let orderAmount = 1500;
+
+if(orderAmount >= 0 && orderAmount <= 499){
+    console.log("₹80");
+}else if(orderAmount >= 500 && orderAmount <= 999){
+    console.log("₹50");
+}else if(orderAmount >= 1000 && orderAmount <= 1999){
+    console.log("₹30");
+}else if(orderAmount >= 2000 && orderAmount <= 4999){
+    console.log("Free Delivery");
 }else{
-    console.log("25% Bonus");
-}
+    console.log("Premium Free Delivery");
+} 
