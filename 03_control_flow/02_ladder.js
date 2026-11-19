@@ -159,6 +159,32 @@
 // }
 
 
+// let username = "yashvi";
+// let password = "12345";
+// let isAccountActive = true;
+
+// let correctusername = "yashvi";
+// let correctpassword = "12345";
+
+// if (username === correctusername && password === correctpassword && isAccountActive === true) {
+//     console.log("Login Successful");
+// }
+// else if (username === correctusername && password !== correctpassword) {
+//     console.log("Incorrect Password");
+// }
+// else if (username !== correctusername) {
+//     console.log("User Not Found");
+// }
+// else if (isAccountActive === false) {
+//     console.log("Account Deactivated");
+// }
+// else {
+//     console.log("Invalid Login");
+// }
+
+
+
+
 let username = "yashvi";
 let password = "12345";
 let isAccountActive = true;
