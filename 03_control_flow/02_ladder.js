@@ -109,16 +109,75 @@
 // }
 
 
-let orderAmount = 1500;
+// let orderAmount = 1500;
 
-if(orderAmount >= 0 && orderAmount <= 499){
-    console.log("₹80");
-}else if(orderAmount >= 500 && orderAmount <= 999){
-    console.log("₹50");
-}else if(orderAmount >= 1000 && orderAmount <= 1999){
-    console.log("₹30");
-}else if(orderAmount >= 2000 && orderAmount <= 4999){
-    console.log("Free Delivery");
-}else{
-    console.log("Premium Free Delivery");
-} 
+// if(orderAmount >= 0 && orderAmount <= 499){
+//     console.log("₹80");
+// }else if(orderAmount >= 500 && orderAmount <= 999){
+//     console.log("₹50");
+// }else if(orderAmount >= 1000 && orderAmount <= 1999){
+//     console.log("₹30");
+// }else if(orderAmount >= 2000 && orderAmount <= 4999){
+//     console.log("Free Delivery");
+// }else{
+//     console.log("Premium Free Delivery");
+// } 
+
+// let age = 22;
+// let day = "Sunday";
+
+// if(age >= 0 && age < 5){
+//     console.log("Free");
+// }else if(age >= 5 && age <= 17){
+//     console.log("₹100");
+// }else if(age >= 18 && age <= 59 && (day !== "Saturday" && day !== "Sunday")){
+//     console.log("₹200");
+// }else if(age >= 18 && age <= 59 && (day === "Saturday" || day === "Sunday")){
+//     console.log("₹300");
+// }else if(age >= 60 && age <= 100){
+//     console.log("₹150");
+// }else{
+//     console.log("Invalid Age");
+// }
+
+// let experience = 4;
+// let performance = "Excellent";
+// let salary = 30000;
+
+// if(experience < 1){
+//     console.log("No Bonus");
+// }else if(experience >= 1 && experience <= 3 && performance === "Good"){
+//     console.log("5% Bonus");
+// }else if(experience >= 1 && experience <= 3 && performance === "Excellent"){
+//     console.log("10% Bonus");
+// }else if(experience > 3 && performance === "Good"){
+//     console.log("15% Bonus");
+// }else if(experience > 3 && performance === "Excellent"){
+//     console.log("20% Bonus");
+// }else{
+//     console.log("No Bonus");
+// }
+
+
+let username = "yashvi";
+let password = "12345";
+let isAccountActive = true;
+
+let correctusername = "yashvi";
+let correctpassword = "12345";
+
+if (username === correctusername && password === correctpassword && isAccountActive === true) {
+    console.log("Login Successful");
+}
+else if (username === correctusername && password !== correctpassword) {
+    console.log("Incorrect Password");
+}
+else if (username !== correctusername) {
+    console.log("User Not Found");
+}
+else if (isAccountActive === false) {
+    console.log("Account Deactivated");
+}
+else {
+    console.log("Invalid Login");
+}
