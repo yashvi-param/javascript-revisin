@@ -29,3 +29,21 @@
 // } else {
 //     console.log("Not Eligible Due to Age");
 // }
+
+let isLoggedIn = true;
+let cartAmount = 2500;
+let hasCoupon = false;
+
+if (isLoggedIn === true) {
+  if (cartAmount >= 2000) {
+    if (hasCoupon === true) {
+      console.log("20% Discount Applied");
+    } else {
+        console.log("10% Discount Applied")
+    };
+  } else {
+    console.log("Add More Products");
+  }
+} else {
+  console.log("Please Login First");
+}
