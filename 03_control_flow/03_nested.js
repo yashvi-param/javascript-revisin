@@ -30,20 +30,57 @@
 //     console.log("Not Eligible Due to Age");
 // }
 
-let isLoggedIn = true;
-let cartAmount = 2500;
-let hasCoupon = false;
+// let isLoggedIn = true;
+// let cartAmount = 2500;
+// let hasCoupon = false;
 
-if (isLoggedIn === true) {
-  if (cartAmount >= 2000) {
-    if (hasCoupon === true) {
-      console.log("20% Discount Applied");
-    } else {
-        console.log("10% Discount Applied")
-    };
-  } else {
-    console.log("Add More Products");
-  }
-} else {
-  console.log("Please Login First");
+// if (isLoggedIn === true) {
+//   if (cartAmount >= 2000) {
+//     if (hasCoupon === true) {
+//       console.log("20% Discount Applied");
+//     } else {
+//         console.log("10% Discount Applied")
+//     };
+//   } else {
+//     console.log("Add More Products");
+//   }
+// } else {
+//   console.log("Please Login First");
+// }
+
+// let pinEntered = true;
+// let accountBalance = 5000;
+// let withdrawAmount = 3000;
+
+// if(pinEntered === true){
+//     if(withdrawAmount > 0){
+//         if(accountBalance >= withdrawAmount){
+//             console.log ("Withdrawal Successful")
+//         }else{
+//             console.log("Insufficient Balance")
+//         }
+//     }else{
+//         console.log("Invalid Amount")
+//     }
+// }else{
+//     console.log("Incorrect PIN")
+// }
+
+
+let isEmployee = true;
+let experience = 4;
+let performanceRating = 5;
+
+if(isEmployee === true){
+    if(experience >= 3){
+        if(performanceRating >= 4){
+            console.log("Eligible for Bonus")
+        }else{
+            console.log("Performance Rating Too Low")
+        }
+    }else{
+        console.log("Not Enough Experience")
+    }
+}else{
+    console.log("Not an Employee")
 }
