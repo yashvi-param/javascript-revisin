@@ -66,21 +66,20 @@
 //     console.log("Incorrect PIN")
 // }
 
+let isLoggedIn = true;
+let roomAvailable = true;
+let hasEnoughMoney = false;
 
-let isEmployee = true;
-let experience = 4;
-let performanceRating = 5;
-
-if(isEmployee === true){
-    if(experience >= 3){
-        if(performanceRating >= 4){
-            console.log("Eligible for Bonus")
-        }else{
-            console.log("Performance Rating Too Low")
-        }
-    }else{
-        console.log("Not Enough Experience")
+if (isLoggedIn === true) {
+  if (roomAvailable === true) {
+    if (hasEnoughMoney === true) {
+      console.log("Room Booked Successfully");
+    } else {
+      console.log("Insufficient Money");
     }
+  } else {
+    console.log("No Rooms Available");
+  }
 }else{
-    console.log("Not an Employee")
+    console.log("Please Login First")
 }
