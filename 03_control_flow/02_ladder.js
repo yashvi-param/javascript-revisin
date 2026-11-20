@@ -198,8 +198,8 @@
 //     console.log("Invalid Transaction");
 // }
 
-let marks = 78;
-let attendance = 85;
+let marks = 110;
+let attendance = 90;
 let assignmentSubmitted = true;
 
 if (marks < 0 || marks > 100) {
