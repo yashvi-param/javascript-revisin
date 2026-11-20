@@ -44,7 +44,6 @@
 //     console.log("30% Discount")
 // }
 
-
 // let age = 22;
 
 // if(age >= 0 && age <= 5){
@@ -77,7 +76,6 @@
 //     console.log("Extreme Heat");
 // }
 
-
 // let attendence = 82;
 
 // if(attendence >= 0 && attendence <= 59){
@@ -108,7 +106,6 @@
 //     console.log("25% Bonus");
 // }
 
-
 // let orderAmount = 1500;
 
 // if(orderAmount >= 0 && orderAmount <= 499){
@@ -121,7 +118,7 @@
 //     console.log("Free Delivery");
 // }else{
 //     console.log("Premium Free Delivery");
-// } 
+// }
 
 // let age = 22;
 // let day = "Sunday";
@@ -158,7 +155,6 @@
 //     console.log("No Bonus");
 // }
 
-
 // let username = "yashvi";
 // let password = "12345";
 // let isAccountActive = true;
@@ -182,28 +178,44 @@
 //     console.log("Invalid Login");
 // }
 
+// let balance = 5000;
+// let withdrawAmount = 2000;
+// let isAccountActive = true;
 
+// if (isAccountActive === false) {
+//     console.log("Account Deactivated");
+// }
+// else if (withdrawAmount <= 0) {
+//     console.log("Invalid Amount");
+// }
+// else if (withdrawAmount > balance) {
+//     console.log("Insufficient Balance");
+// }
+// else if (withdrawAmount <= balance && isAccountActive === true) {
+//     console.log("Withdrawal Successful");
+// }
+// else {
+//     console.log("Invalid Transaction");
+// }
 
+let marks = 78;
+let attendance = 85;
+let assignmentSubmitted = true;
 
-let username = "yashvi";
-let password = "12345";
-let isAccountActive = true;
-
-let correctusername = "yashvi";
-let correctpassword = "12345";
-
-if (username === correctusername && password === correctpassword && isAccountActive === true) {
-    console.log("Login Successful");
-}
-else if (username === correctusername && password !== correctpassword) {
-    console.log("Incorrect Password");
-}
-else if (username !== correctusername) {
-    console.log("User Not Found");
-}
-else if (isAccountActive === false) {
-    console.log("Account Deactivated");
-}
-else {
-    console.log("Invalid Login");
+if (marks < 0 || marks > 100) {
+  console.log("Invalid Marks");
+} else if (attendance < 75) {
+  console.log("Not Eligible");
+} else if (assignmentSubmitted === false) {
+  console.log("Assignment Pending");
+} else if (marks >= 90 && marks <= 100) {
+  console.log("A Grade");
+} else if (marks >= 75 && marks <= 89) {
+  console.log("B Grade");
+} else if (marks >= 60 && marks <= 74) {
+  console.log("C Grade");
+} else if (marks >= 35 && marks <= 59) {
+  console.log("D Grade");
+} else {
+  console.log("Failed");
 }
