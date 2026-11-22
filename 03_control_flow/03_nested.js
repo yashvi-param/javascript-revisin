@@ -83,3 +83,22 @@ if (isLoggedIn === true) {
 }else{
     console.log("Please Login First")
 }
+
+
+let consumerRegistered = true;
+let units = 250;
+let paymentDone = false;
+
+if (consumerRegistered) {
+    if (units > 0) {
+        if (paymentDone) {
+            console.log("Electricity bill payment successful");
+        } else {
+            console.log("Please complete your electricity bill payment");
+        }
+    } else {
+        console.log("No electricity units consumed");
+    }
+} else {
+    console.log("Consumer is not registered");
+}
