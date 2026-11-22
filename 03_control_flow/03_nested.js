@@ -102,20 +102,22 @@
 //     console.log("Consumer is not registered");
 // }
 
-let isLoggedIn = true;
-let age = 16;
-let ticketAvailable = true;
+//
 
-if (isLoggedIn === true) {
-  if (age >= 18) {
-    if (ticketAvailable === true) {
-      console.log("Ticket Booked Successfully");
+let isRegistered = true;
+let examAttended = true;
+let marks = 35;
+
+if (isRegistered) {
+  if (examAttended) {
+    if (marks >= 35) {
+      console.log("Congratulations! You Passed");
     } else {
-      console.log("Tickets Not Available");
+      console.log("You Failed");
     }
-  } else {
-    console.log("You Are Underage");
+  }else{
+    console.log("Exam Not Attended")
   }
-} else {
-  console.log("Please Login First");
+}else{
+  console.log("Please Register First")
 }
