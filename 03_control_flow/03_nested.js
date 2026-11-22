@@ -104,20 +104,38 @@
 
 //
 
-let isRegistered = true;
-let examAttended = true;
-let marks = 35;
+// let isRegistered = true;
+// let examAttended = true;
+// let marks = 35;
 
-if (isRegistered) {
-  if (examAttended) {
-    if (marks >= 35) {
-      console.log("Congratulations! You Passed");
+// if (isRegistered) {
+//   if (examAttended) {
+//     if (marks >= 35) {
+//       console.log("Congratulations! You Passed");
+//     } else {
+//       console.log("You Failed");
+//     }
+//   }else{
+//     console.log("Exam Not Attended")
+//   }
+// }else{
+//   console.log("Please Register First")
+// }
+
+let isCustomer = true;
+let creditScore = 750;
+let monthlyIncome = 25000;
+
+if (isCustomer === true) {
+  if (creditScore >= 700) {
+    if (monthlyIncome >= 20000) {
+      console.log("Loan Approved");
     } else {
-      console.log("You Failed");
+      console.log("Income Too Low");
     }
-  }else{
-    console.log("Exam Not Attended")
+  } else {
+    ("Credit Score Too Low");
   }
-}else{
-  console.log("Please Register First")
+} else {
+  ("Please Open Bank Account First");
 }
