@@ -66,39 +66,56 @@
 //     console.log("Incorrect PIN")
 // }
 
+// let isLoggedIn = true;
+// let roomAvailable = true;
+// let hasEnoughMoney = false;
+
+// if (isLoggedIn === true) {
+//   if (roomAvailable === true) {
+//     if (hasEnoughMoney === true) {
+//       console.log("Room Booked Successfully");
+//     } else {
+//       console.log("Insufficient Money");
+//     }
+//   } else {
+//     console.log("No Rooms Available");
+//   }
+// }else{
+//     console.log("Please Login First")
+// }
+
+// let consumerRegistered = true;
+// let units = 250;
+// let paymentDone = false;
+
+// if (consumerRegistered) {
+//     if (units > 0) {
+//         if (paymentDone) {
+//             console.log("Electricity bill payment successful");
+//         } else {
+//             console.log("Please complete your electricity bill payment");
+//         }
+//     } else {
+//         console.log("No electricity units consumed");
+//     }
+// } else {
+//     console.log("Consumer is not registered");
+// }
+
 let isLoggedIn = true;
-let roomAvailable = true;
-let hasEnoughMoney = false;
+let age = 16;
+let ticketAvailable = true;
 
 if (isLoggedIn === true) {
-  if (roomAvailable === true) {
-    if (hasEnoughMoney === true) {
-      console.log("Room Booked Successfully");
+  if (age >= 18) {
+    if (ticketAvailable === true) {
+      console.log("Ticket Booked Successfully");
     } else {
-      console.log("Insufficient Money");
+      console.log("Tickets Not Available");
     }
   } else {
-    console.log("No Rooms Available");
+    console.log("You Are Underage");
   }
-}else{
-    console.log("Please Login First")
-}
-
-
-let consumerRegistered = true;
-let units = 250;
-let paymentDone = false;
-
-if (consumerRegistered) {
-    if (units > 0) {
-        if (paymentDone) {
-            console.log("Electricity bill payment successful");
-        } else {
-            console.log("Please complete your electricity bill payment");
-        }
-    } else {
-        console.log("No electricity units consumed");
-    }
 } else {
-    console.log("Consumer is not registered");
+  console.log("Please Login First");
 }
