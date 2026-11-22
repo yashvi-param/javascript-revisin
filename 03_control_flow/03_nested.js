@@ -140,20 +140,43 @@
 //   console.log("Please Open Bank Account First");
 // }
 
-let age = 22;
-let hasAadharCard = true;
-let passedDrivingTest = false;
+// let age = 22;
+// let hasAadharCard = true;
+// let passedDrivingTest = false;
 
-if (age >= 18) {
-  if (hasAadharCard === true) {
-    if (passedDrivingTest === true) {
-      console.log("Driving License Approved");
+// if (age >= 18) {
+//   if (hasAadharCard === true) {
+//     if (passedDrivingTest === true) {
+//       console.log("Driving License Approved");
+//     } else {
+//       console.log("Driving Test Not Passed");
+//     }
+//   } else {
+//     console.log("Aadhar Card Required");
+//   }
+// } else {
+//   console.log("Not Eligible for Driving License");
+// }
+
+let isRegistered = true;
+let age = 19;
+let marks = 75;
+let feesPaid = false;
+
+if (isRegistered === true) {
+  if (age >= 18) {
+    if (marks >= 60) {
+      if (feesPaid === true) {
+        console.log("Admission Successful");
+      } else {
+        console.log("Please Pay College Fees");
+      }
     } else {
-      console.log("Driving Test Not Passed");
+      console.log("Insufficient Marks");
     }
   } else {
-    console.log("Aadhar Card Required");
+    console.log("Age Criteria Not Met");
   }
 } else {
-  console.log("Not Eligible for Driving License");
+  console.log("Please Register First");
 }
