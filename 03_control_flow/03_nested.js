@@ -122,20 +122,38 @@
 //   console.log("Please Register First")
 // }
 
-let isCustomer = true;
-let creditScore = 750;
-let monthlyIncome = 25000;
+// let isCustomer = true;
+// let creditScore = 750;
+// let monthlyIncome = 25000;
 
-if (isCustomer === true) {
-  if (creditScore >= 700) {
-    if (monthlyIncome >= 20000) {
-      console.log("Loan Approved");
+// if (isCustomer === true) {
+//   if (creditScore >= 700) {
+//     if (monthlyIncome >= 20000) {
+//       console.log("Loan Approved");
+//     } else {
+//       console.log("Income Too Low");
+//     }
+//   } else {
+//     console.log("Credit Score Too Low");
+//   }
+// } else {
+//   console.log("Please Open Bank Account First");
+// }
+
+let age = 22;
+let hasAadharCard = true;
+let passedDrivingTest = false;
+
+if (age >= 18) {
+  if (hasAadharCard === true) {
+    if (passedDrivingTest === true) {
+      console.log("Driving License Approved");
     } else {
-      console.log("Income Too Low");
+      console.log("Driving Test Not Passed");
     }
   } else {
-    ("Credit Score Too Low");
+    console.log("Aadhar Card Required");
   }
 } else {
-  ("Please Open Bank Account First");
+  console.log("Not Eligible for Driving License");
 }
