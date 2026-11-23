@@ -227,35 +227,63 @@
 // }
 
 
-let month = 2;
+// let month = 2;
 
-switch (month) {
-  case 1:
-  case 3:
-  case 5: 
-  case 7:
-  case 8:
-  case 10:
-  case 12:
-  {
-    console.log("31 Days");
+// switch (month) {
+//   case 1:
+//   case 3:
+//   case 5: 
+//   case 7:
+//   case 8:
+//   case 10:
+//   case 12:
+//   {
+//     console.log("31 Days");
+//     break;
+//   }
+//   case 2: {
+//     console.log("28 Days");
+//     break;
+//   }
+//   case 4: 
+//   case 6:
+//   case 9:
+//   case 11:
+//   {
+//     console.log("30 Days");
+//     break;
+//   }
+//   default: {
+//     console.log("Invalid Month");
+//   }
+// }
+
+
+
+let choice = 2;
+
+switch (choice) {
+  case 1:{
+    console.log("Welcome to Home");
+    break;
+  }  
+  case 2:{
+    console.log("	Welcome to Profile");
     break;
   }
-  case 2: {
-    console.log("28 Days");
+  case 3:{
+    console.log("Welcome to Settings");
     break;
   }
-  case 4: 
-  case 6:
-  case 9:
-  case 11:
-  {
-    console.log("30 Days");
+  case 4:{
+    console.log("Welcome to Contact");
     break;
   }
-  default: {
-    console.log("Invalid Month");
+  case 5:{
+    console.log("	Thank You for Visiting")
+    break;
+  }
+  default:{
+    console.log("Invalid Choice")
   }
 }
-
-
