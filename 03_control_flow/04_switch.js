@@ -150,29 +150,78 @@
 //   }
 // }
 
-
 let signal = "red";
 
 switch (signal) {
-  case "red":{
+  case "red": {
     console.log("Stop");
     break;
   }
-  case "yellow":{
+  case "yellow": {
     console.log("Wait");
     break;
   }
-  case "green":{
+  case "green": {
     console.log("Go");
     break;
   }
-  default:{
-    console.log("Invalid Signal")
+  default: {
+    console.log("Invalid Signal");
   }
 }
 
 let month = 2;
 
 switch (month) {
-  // Write your code here
+  case 1: {
+    console.log("31 Days");
+    break;
+  }
+  case 2: {
+    console.log("28 Days");
+    break;
+  }
+  case 3: {
+    console.log("31 Days");
+    break;
+  }
+  case 4: {
+    console.log("30 Days");
+    break;
+  }
+  case 5: {
+    console.log("31 Days");
+    break;
+  }
+  case 6: {
+    console.log("30 Days");
+    break;
+  }
+  case 7: {
+    console.log("31 Days");
+    break;
+  }
+  case 8: {
+    console.log("31 Days");
+    break;
+  }
+  case 9: {
+    console.log("30 Days");
+    break;
+  }
+  case 10: {
+    console.log("31 Days");
+    break;
+  }
+  case 11: {
+    console.log("30 Days");
+    break;
+  }
+  case 12: {
+    console.log("31 Days");
+    break;
+  }
+  default: {
+    console.log("Invalid Month");
+  }
 }
