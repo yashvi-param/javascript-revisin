@@ -92,33 +92,87 @@
 //   }
 // }
 
+// let num1 = 20;
+// let num2 = 10;
+// let operator = "+";
 
-let num1 = 20;
-let num2 = 10;
-let operator = "+";
+// switch(operator){
+//   case "+":{
+//     console.log(20 + 10);
+//     break;
+//   }
+//    case "-":{
+//     console.log(20 - 10);
+//     break;
+//   }
+//    case "*":{
+//     console.log(20 * 10);
+//     break;
+//   }
+//     case "/":{
+//     console.log(20 / 10);
+//     break;
+//   }
+//     case "%":{
+//     console.log(20 % 10);
+//     break;
+//   }
+//   default:{
+//     console.log("Invalid Operator")
+//   }
+// }
 
-switch(operator){
-  case "+":{
-    console.log(20 + 10);
+// let grade = "A";
+
+// switch (grade) {
+//   case "A": {
+//     console.log("Excellent");
+//     break;
+//   }
+//   case "B": {
+//     console.log("Very Good");
+//     break;
+//   }
+//   case"C": {
+//     console.log("Good");
+//     break;
+//   }
+//   case "D": {
+//     console.log("Average");
+//     break;
+//   }
+//   case "F": {
+//     console.log("Fail");
+//     break;
+//   }
+//   default: {
+//     console.log("Invalid Grade");
+//   }
+// }
+
+
+let signal = "red";
+
+switch (signal) {
+  case "red":{
+    console.log("Stop");
     break;
   }
-   case "-":{
-    console.log(20 - 10);
+  case "yellow":{
+    console.log("Wait");
     break;
   }
-   case "*":{
-    console.log(20 * 10);
-    break;
-  }
-    case "/":{
-    console.log(20 / 10);
-    break;
-  }
-    case "%":{
-    console.log(20 % 10);
+  case "green":{
+    console.log("Go");
     break;
   }
   default:{
-    console.log("Invalid Operator")
+    console.log("Invalid Signal")
   }
-} 
+}
+
+let month = 2;
+
+switch (month) {
+  // Write your code here
+}
