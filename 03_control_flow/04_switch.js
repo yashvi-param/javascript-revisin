@@ -36,58 +36,89 @@
 //   }
 // }
 
-let month = 1;
+// let month = 1;
 
-switch (month) {
-  case 1: {
-    console.log("january");
+// switch (month) {
+//   case 1: {
+//     console.log("january");
+//     break;
+//   }
+//   case 2: {
+//     console.log("february");
+//     break;
+//   }
+//   case 3: {
+//     console.log("march");
+//     break;
+//   }
+//   case 4: {
+//     console.log("april");
+//     break;
+//   }
+//   case 5: {
+//     console.log("may");
+//     break;
+//   }
+//   case 6: {
+//     console.log("june");
+//     break;
+//   }
+//   case 7: {
+//     console.log("july");
+//     break;
+//   }
+//   case 8: {
+//     console.log("augest");
+//     break;
+//   }
+//   case 9: {
+//     console.log("sepetamber");
+//     break;
+//   }
+//   case 10: {
+//     console.log("october");
+//     break;
+//   }
+//   case 11: {
+//     console.log("november");
+//     break;
+//   }
+//   case 12: {
+//     console.log("december");
+//     break;
+//   }
+//   default:{
+//     console.log("Invalid Month Number");
+//   }
+// }
+
+
+let num1 = 20;
+let num2 = 10;
+let operator = "+";
+
+switch(operator){
+  case "+":{
+    console.log(20 + 10);
     break;
   }
-  case 2: {
-    console.log("february");
+   case "-":{
+    console.log(20 - 10);
     break;
   }
-  case 3: {
-    console.log("march");
+   case "*":{
+    console.log(20 * 10);
     break;
   }
-  case 4: {
-    console.log("april");
+    case "/":{
+    console.log(20 / 10);
     break;
   }
-  case 5: {
-    console.log("may");
-    break;
-  }
-  case 6: {
-    console.log("june");
-    break;
-  }
-  case 7: {
-    console.log("july");
-    break;
-  }
-  case 8: {
-    console.log("augest");
-    break;
-  }
-  case 9: {
-    console.log("sepetamber");
-    break;
-  }
-  case 10: {
-    console.log("october");
-    break;
-  }
-  case 11: {
-    console.log("november");
-    break;
-  }
-  case 12: {
-    console.log("december");
+    case "%":{
+    console.log(20 % 10);
     break;
   }
   default:{
-    console.log("Invalid Month Number");
+    console.log("Invalid Operator")
   }
-}
+} 
