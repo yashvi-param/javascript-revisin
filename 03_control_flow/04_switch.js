@@ -226,13 +226,12 @@
 //   }
 // }
 
-
 // let month = 2;
 
 // switch (month) {
 //   case 1:
 //   case 3:
-//   case 5: 
+//   case 5:
 //   case 7:
 //   case 8:
 //   case 10:
@@ -245,7 +244,7 @@
 //     console.log("28 Days");
 //     break;
 //   }
-//   case 4: 
+//   case 4:
 //   case 6:
 //   case 9:
 //   case 11:
@@ -258,32 +257,68 @@
 //   }
 // }
 
+// let choice = 2;
 
+// switch (choice) {
+//   case 1: {
+//     console.log("Welcome to Home");
+//     break;
+//   }
+//   case 2: {
+//     console.log("	Welcome to Profile");
+//     break;
+//   }
+//   case 3: {
+//     console.log("Welcome to Settings");
+//     break;
+//   }
+//   case 4: {
+//     console.log("Welcome to Contact");
+//     break;
+//   }
+//   case 5: {
+//     console.log("	Thank You for Visiting");
+//     break;
+//   }
+//   default: {
+//     console.log("Invalid Choice");
+//   }
+// }
 
-let choice = 2;
+let number = 5;
 
-switch (choice) {
-  case 1:{
-    console.log("Welcome to Home");
-    break;
-  }  
-  case 2:{
-    console.log("	Welcome to Profile");
-    break;
+switch (number) {
+  case 1: {
+    console.log("one");
   }
-  case 3:{
-    console.log("Welcome to Settings");
-    break;
+  case 2: {
+    console.log("two");
   }
-  case 4:{
-    console.log("Welcome to Contact");
-    break;
+  case 3: {
+    console.log("three");
   }
-  case 5:{
-    console.log("	Thank You for Visiting")
-    break;
+  case 4: {
+    console.log("four");
   }
-  default:{
-    console.log("Invalid Choice")
+  case 5: {
+    console.log("five");
+  }
+  case 6: {
+    console.log("six");
+  }
+  case 7: {
+    console.log("seven");
+  }
+  case 8: {
+    console.log("eight");
+  }
+  case 9: {
+    console.log("nine");
+  }
+  case 10: {
+    console.log("ten");
+  }
+  default: {
+    console.log("Invalid Number");
   }
 }
