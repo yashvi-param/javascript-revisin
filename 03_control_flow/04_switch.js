@@ -366,23 +366,46 @@
 //   }
 // }
 
-let day = 3;
+// let day = 3;
 
-switch (day) {
-  case 1:
-  case 2:
-  case 3:
-  case 4:
-  case 5:{
-    console.log("Weekday");
+// switch (day) {
+//   case 1:
+//   case 2:
+//   case 3:
+//   case 4:
+//   case 5:{
+//     console.log("Weekday");
+//     break;
+//   }
+//   case 6:
+//   case 7: {
+//     console.log("weekend");
+//     break;
+//   }default:{
+//     console.log("Invalid Day")
+//   }
+// }
+
+
+
+let membership = "gold";
+
+switch (membership) {
+  case "gold":{
+    console.log("20% Discount");
     break;
   }
-  case 6:
-  case 7: {
-    console.log("weekend");
+  case "silver":{
+    console.log("15% Discount");
     break;
+  }
+  case "bronze":{
+    console.log("10% Discount");
+    break;
+  }
+  case "regular":{
+    console.log("5% Discount")
   }default:{
-    console.log("Invalid Day")
+    console.log("Invalid Membership")
   }
 }
-
