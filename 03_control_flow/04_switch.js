@@ -504,22 +504,47 @@
 // }
 
 
-let vehicle = "car";
-let days = 3;
+// let vehicle = "car";
+// let days = 3;
 
-switch (vehicle) {
-  case "bike":
-    console.log("Total Rent: ₹" + (300 * days));
-    break;
+// switch (vehicle) {
+//   case "bike":
+//     console.log("Total Rent: ₹" + (300 * days));
+//     break;
 
-  case "car":
-    console.log("Total Rent: ₹" + (1000 * days));
-    break;
+//   case "car":
+//     console.log("Total Rent: ₹" + (1000 * days));
+//     break;
 
-  case "bus":
-    console.log("Total Rent: ₹" + (2500 * days));
-    break;
+//   case "bus":
+//     console.log("Total Rent: ₹" + (2500 * days));
+//     break;
 
-  default:
-    console.log("Invalid Vehicle");
-}
+//   default:
+//     console.log("Invalid Vehicle");
+// }
+
+// let plan = "premium";
+
+// switch (plan) {
+//   case "basic":
+//     console.log("Basic Plan Activated - ₹99");
+//     break;
+
+//   case "standard":
+//     console.log("Standard Plan Activated - ₹199");
+//     break;
+
+//   case "premium":
+//     console.log("Premium Plan Activated - ₹299");
+//     break;
+
+//   case "unlimited":
+//     console.log("Unlimited Plan Activated - ₹499");
+//     break;
+
+//   default:
+//     console.log("Invalid Recharge Plan");
+// }
+
+
