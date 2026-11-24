@@ -306,34 +306,83 @@
 //   }
 // }
 
-let month = 4;
+// let month = 4;
 
-switch (month) {
-  case 12:
+// switch (month) {
+//   case 12:
+//   case 1:
+//   case 2: {
+//     console.log("Winter");
+//     break;
+//   }
+//   case 3:
+//   case 4:
+//   case 5: {
+//     console.log("Summer");
+//     break;
+//   }
+//   case 6:
+//   case 7:
+//   case 8:
+//   case 9: {
+//     console.log("Monsoon");
+//     break;
+//   }
+//   case 10:
+//   case 11:{
+//     console.log("Autumn");
+//     break;
+//   }
+//   default:{
+//     console.log("	Invalid Month")
+//   }
+// }
+
+// let role = "admin";
+
+// switch (role) {
+//   case "admin":{
+//     console.log("Full Access");
+//     break;
+//   }
+//     case "editor":{
+//     console.log("Edit Access");
+//     break;
+//   }
+//     case "viewer":{
+//     console.log("View Only");
+//     break;
+//   }
+//     case "customer":{
+//     console.log("Customer Dashboard");
+//     break;
+//   }
+//     case "guest":{
+//     console.log("Guest Access");
+//     break;
+//   }
+//   default:{
+//     console.log("Invalid Role");
+//   }
+// }
+
+let day = 3;
+
+switch (day) {
   case 1:
-  case 2: {
-    console.log("Winter");
-    break;
-  }
+  case 2:
   case 3:
   case 4:
-  case 5: {
-    console.log("Summer");
+  case 5:{
+    console.log("Weekday");
     break;
   }
   case 6:
-  case 7:
-  case 8:
-  case 9: {
-    console.log("Monsoon");
+  case 7: {
+    console.log("weekend");
     break;
-  }
-  case 10:
-  case 11:{
-    console.log("Autumn");
-    break;
-  } 
-  default:{
-    console.log("	Invalid Month")
+  }default:{
+    console.log("Invalid Day")
   }
 }
+
