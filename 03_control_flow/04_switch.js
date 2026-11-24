@@ -466,3 +466,39 @@
 //   default:
 //     console.log("Invalid Payment Method");
 // }
+
+
+// let food = "pizza";
+// let size = "large";
+
+// switch (food) {
+//   case "pizza":
+//     switch (size) {
+//       case "small":
+//         console.log("Small Pizza Ordered");
+//         break;
+
+//       case "medium":
+//         console.log("Medium Pizza Ordered");
+//         break;
+
+//       case "large":
+//         console.log("Large Pizza Ordered");
+//         break;
+
+//       default:
+//         console.log("Invalid Pizza Size");
+//     }
+//     break;
+
+//   case "burger":
+//     console.log("Burger Ordered");
+//     break;
+
+//   case "sandwich":
+//     console.log("Sandwich Ordered");
+//     break;
+
+//   default:
+//     console.log("Invalid Food Item");
+// }
