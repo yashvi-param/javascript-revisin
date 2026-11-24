@@ -409,36 +409,60 @@
 //   }
 // }
 
-let num1 = 20;
-let num2 = 0;
-let operator = "/";
+// let num1 = 20;
+// let num2 = 0;
+// let operator = "/";
 
-switch (operator) {
-  case "+":
-    console.log("Addition:", num1 + num2);
-    break;
+// switch (operator) {
+//   case "+":
+//     console.log("Addition:", num1 + num2);
+//     break;
 
-  case "-":
-    console.log("Subtraction:", num1 - num2);
-    break;
+//   case "-":
+//     console.log("Subtraction:", num1 - num2);
+//     break;
 
-  case "*":
-    console.log("Multiplication:", num1 * num2);
-    break;
+//   case "*":
+//     console.log("Multiplication:", num1 * num2);
+//     break;
 
-  case "/":
-    if (num2 === 0) {
-      console.log("Cannot Divide by Zero");
-    } else {
-      console.log("Division:", num1 / num2);
-    }
-    break;
+//   case "/":
+//     if (num2 === 0) {
+//       console.log("Cannot Divide by Zero");
+//     } else {
+//       console.log("Division:", num1 / num2);
+//     }
+//     break;
 
-  case "%":
-    console.log("Modulus:", num1 % num2);
-    break;
+//   case "%":
+//     console.log("Modulus:", num1 % num2);
+//     break;
 
-  default:
-    console.log("Invalid Operator");
-    break;
-}
+//   default:
+//     console.log("Invalid Operator");
+//     break;
+// }
+
+
+// let paymentMethod = "upi";
+
+// switch (paymentMethod) {
+//   case "cash":
+//     console.log("Cash Payment Selected");
+//     break;
+
+//   case "card":
+//     console.log("Card Payment Selected");
+//     break;
+
+//   case "upi":
+//     console.log("UPI Payment Selected");
+//     break;
+
+//   case "netbanking":
+//     console.log("Net Banking Selected");
+//     break;
+
+//   default:
+//     console.log("Invalid Payment Method");
+// }
