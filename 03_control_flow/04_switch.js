@@ -502,3 +502,24 @@
 //   default:
 //     console.log("Invalid Food Item");
 // }
+
+
+let vehicle = "car";
+let days = 3;
+
+switch (vehicle) {
+  case "bike":
+    console.log("Total Rent: ₹" + (300 * days));
+    break;
+
+  case "car":
+    console.log("Total Rent: ₹" + (1000 * days));
+    break;
+
+  case "bus":
+    console.log("Total Rent: ₹" + (2500 * days));
+    break;
+
+  default:
+    console.log("Invalid Vehicle");
+}
