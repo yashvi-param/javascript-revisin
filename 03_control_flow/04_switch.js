@@ -386,26 +386,59 @@
 //   }
 // }
 
+// let membership = "gold";
 
+// switch (membership) {
+//   case "gold":{
+//     console.log("20% Discount");
+//     break;
+//   }
+//   case "silver":{
+//     console.log("15% Discount");
+//     break;
+//   }
+//   case "bronze":{
+//     console.log("10% Discount");
+//     break;
+//   }
+//   case "regular":{
+//     console.log("5% Discount");
+//     break;
+//   }default:{
+//     console.log("Invalid Membership")
+//   }
+// }
 
-let membership = "gold";
+let num1 = 20;
+let num2 = 0;
+let operator = "/";
 
-switch (membership) {
-  case "gold":{
-    console.log("20% Discount");
+switch (operator) {
+  case "+":
+    console.log("Addition:", num1 + num2);
     break;
-  }
-  case "silver":{
-    console.log("15% Discount");
+
+  case "-":
+    console.log("Subtraction:", num1 - num2);
     break;
-  }
-  case "bronze":{
-    console.log("10% Discount");
+
+  case "*":
+    console.log("Multiplication:", num1 * num2);
     break;
-  }
-  case "regular":{
-    console.log("5% Discount")
-  }default:{
-    console.log("Invalid Membership")
-  }
+
+  case "/":
+    if (num2 === 0) {
+      console.log("Cannot Divide by Zero");
+    } else {
+      console.log("Division:", num1 / num2);
+    }
+    break;
+
+  case "%":
+    console.log("Modulus:", num1 % num2);
+    break;
+
+  default:
+    console.log("Invalid Operator");
+    break;
 }
