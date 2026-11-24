@@ -548,3 +548,29 @@
 // }
 
 
+let balance = 5000;
+let operation = "withdraw";
+let amount = 2000;
+
+switch (operation) {
+  case "check":
+    console.log("Current Balance: ₹" + balance);
+    break;
+
+  case "deposit":
+    balance = balance + amount;
+    console.log("New Balance: ₹" + balance);
+    break;
+
+  case "withdraw":
+    if (amount > balance) {
+      console.log("Insufficient Balance");
+    } else {
+      balance = balance - amount;
+      console.log("New Balance: ₹" + balance);
+    }
+    break;
+
+  default:
+    console.log("Invalid Operation");
+}
