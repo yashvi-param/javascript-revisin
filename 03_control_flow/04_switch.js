@@ -548,29 +548,64 @@
 // }
 
 
-let balance = 5000;
-let operation = "withdraw";
-let amount = 2000;
+// let balance = 5000;
+// let operation = "withdraw";
+// let amount = 2000;
 
-switch (operation) {
-  case "check":
-    console.log("Current Balance: ₹" + balance);
-    break;
+// switch (operation) {
+//   case "check":
+//     console.log("Current Balance: ₹" + balance);
+//     break;
 
-  case "deposit":
-    balance = balance + amount;
-    console.log("New Balance: ₹" + balance);
-    break;
+//   case "deposit":
+//     balance = balance + amount;
+//     console.log("New Balance: ₹" + balance);
+//     break;
 
-  case "withdraw":
-    if (amount > balance) {
-      console.log("Insufficient Balance");
-    } else {
-      balance = balance - amount;
-      console.log("New Balance: ₹" + balance);
-    }
-    break;
+//   case "withdraw":
+//     if (amount > balance) {
+//       console.log("Insufficient Balance");
+//     } else {
+//       balance = balance - amount;
+//       console.log("New Balance: ₹" + balance);
+//     }
+//     break;
 
-  default:
-    console.log("Invalid Operation");
-}
+//   default:
+//     console.log("Invalid Operation");
+// }
+
+
+// let student = "yashvi";
+// let exam = "final";
+// let marks = 85;
+// let attendance = 80;
+
+// switch (exam) {
+//   case "midterm":
+//     console.log("Midterm Exam");
+//     break;
+
+//   case "final":
+//     if (attendance >= 75) {
+//       if (marks >= 90) {
+//         console.log("Grade A");
+//       } else if (marks >= 75) {
+//         console.log("Grade B");
+//       } else if (marks >= 50) {
+//         console.log("Grade C");
+//       } else if (marks >= 35) {
+//         console.log("Grade D");
+//       } else {
+//         console.log("Fail");
+//       }
+//     } else {
+//       console.log("Not Eligible");
+//     }
+//     break;
+
+//   default:
+//     console.log("Invalid Exam Type");
+// }
+
+
