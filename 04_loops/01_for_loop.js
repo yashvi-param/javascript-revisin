@@ -4,8 +4,6 @@
 
 // let products = ["vegetables", "fruits", "shoes", "clothes"];
 
-// // manually
-
 // console.log(products[0]);
 
 // for (let i = 0; i < products.length; i++) {
@@ -101,3 +99,48 @@
 // for (let i = 0; i < countries.length; i++){
 //   console.log(countries[i]);
 // }
+
+// for (let i = 5; i <= 100; i += 5) {
+//     console.log(i);
+// }
+
+// let cars = ["BMW", "Audi", "Tesla", "Toyota", "Honda"];
+// console.log(cars[0]);
+
+// for (let i = 0; i < cars.length; i++) {
+//     console.log(cars[i]);
+// }
+
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0) {
+//         console.log(i);
+//     }
+// }
+
+// let languages = ["JavaScript", "Python", "Java", "PHP", "C++"];
+
+// console.log(languages[0]);
+
+// for(let i = 0; i < languages.length; i++){
+//   console.log(languages[i])
+// }
+
+
+for(let i = 50; i <= 150; i++){
+  console.log(i);
+}
+
+let animals = ["Lion", "Tiger", "Elephant", "Dog", "Cat", "Horse"];
+
+console.log (animals[0])
+
+for(let i = 0; i < animals.length; i++){
+  console.log(animals[i]);
+}
+
+
+
+
+
+  
